@@ -29,3 +29,21 @@ Moderne Browser blockieren lokale XSLT-Dateien, wenn sie über `file://` geöffn
 👉 [Direkt zur Vorschau](https://mzakotin123.github.io/Schadenmeldungen/data.xml)
 
 Die Schadenmeldungen werden per XSLT als HTML-Tabelle dargestellt.
+
+## PDF-Erzeugung mit Saxon und Apache FOP
+
+Dieses Projekt demonstriert die Transformation von XML-Daten in ein PDF-Dokument mithilfe von XSLT und XSL-FO.
+
+### Schritte
+
+1. **XML → XSL-FO mit SaxonHE 12.9**
+   ```cmd
+
+   C:\Users\user>cd C:\Users\user\Dokumente\Schadenmeldungen
+
+  C:\Users\user\Dokumente\Schadenmeldungen>C:\Users\user\Downloads\SaxonHE12-9J\saxon-he-12.9.jar
+
+  C:\Users\user\Dokumente\Schadenmeldungen>java -jar C:\Users\user\Downloads\SaxonHE12-9J\saxon-he-12.9.jar -s:data.xml -   xsl:template_fo.xsl -o:output.fo
+
+  C:\Users\user\Dokumente\Schadenmeldungen>"C:\Users\user\Downloads\fop-2.11-bin\fop-2.11\fop\fop.cmd" output.fo output.pdf
+
