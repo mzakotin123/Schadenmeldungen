@@ -38,15 +38,15 @@ Dieses Projekt demonstriert die Transformation von XML-Daten in ein PDF-Dokument
 
 **XML → XSL-FO mit SaxonHE 12.9 über die Eingabeaufforderung (cmd)**
 
-   1. C:\Users\user>cd C:\Users\user\Dokumente\Schadenmeldungen
+   1. C:\Users\user>cd C:\Users\user\Dokumente\Schadenmeldungen  
       (ins Verzeichnis mit der XML- sowie XSL-FO-Datei wechseln)
 
-   2. C:\Users\user\Dokumente\Schadenmeldungen>C:\Users\user\Downloads\SaxonHE12-9J\saxon-he-12.9.jar
+   2. C:\Users\user\Dokumente\Schadenmeldungen>C:\Users\user\Downloads\SaxonHE12-9J\saxon-he-12.9.jar  
       (SaxonHE-12.9.JAR-Datei starten)
 
-   3. C:\Users\user\Dokumente\Schadenmeldungen>java -jar C:\Users\user\Downloads\SaxonHE12-9J\saxon-he-12.9.jar -s:data.xml -   xsl:template_fo.xsl -o:output.fo
+   3. C:\Users\user\Dokumente\Schadenmeldungen>java -jar C:\Users\user\Downloads\SaxonHE12-9J\saxon-he-12.9.jar -s:data.xml -   xsl:template_fo.xsl -o:output.fo  
       (aus der XML-Datei "data" sowie der XSL-FO-Datei "template_fo" formatiertes Objekt "output.fo" erstellen) 
 
-   4. C:\Users\user\Dokumente\Schadenmeldungen>"C:\Users\user\Downloads\fop-2.11-bin\fop-2.11\fop\fop.cmd" output.fo output.pdf
+   4. C:\Users\user\Dokumente\Schadenmeldungen>"C:\Users\user\Downloads\fop-2.11-bin\fop-2.11\fop\fop.cmd" output.fo output.pdf  
    (Anschließend wird mithilfe des Verzeichnisses der CMD-Datei "fop" sowie der FO-Datei "output.fo" eine PDF-Datei "output.pdf" erzeugt.)
 
