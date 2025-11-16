@@ -42,7 +42,7 @@ Dieses Projekt demonstriert die Transformation von XML-Daten in ein PDF-Dokument
 
    2. C:\Users\user\Dokumente\Schadenmeldungen>C:\Users\user\Downloads\SaxonHE12-9J\saxon-he-12.9.jar (SaxonHE-12.9.JAR-Datei starten)
 
-   3. C:\Users\user\Dokumente\Schadenmeldungen>java -jar C:\Users\user\Downloads\SaxonHE12-9J\saxon-he-12.9.jar -s:data.xml -   xsl:template_fo.xsl -o:output.fo (aus der XML-Datei "data" sowie der XSl-FO-Datei "template_fo" formatiertes Objekt "output.fo" erstellen) 
+   3. C:\Users\user\Dokumente\Schadenmeldungen>java -jar C:\Users\user\Downloads\SaxonHE12-9J\saxon-he-12.9.jar -s:data.xml -   xsl:template_fo.xsl -o:output.fo (aus der XML-Datei "data" sowie der XSL-FO-Datei "template_fo" formatiertes Objekt "output.fo" erstellen) 
 
    4. C:\Users\user\Dokumente\Schadenmeldungen>"C:\Users\user\Downloads\fop-2.11-bin\fop-2.11\fop\fop.cmd" output.fo output.pdf
    (Anschließend wird mithilfe des Verzeichnisses der CMD-Datei "fop" sowie der FO-Datei "output.fo" eine PDF-Datei "output.pdf" erzeugt.)
