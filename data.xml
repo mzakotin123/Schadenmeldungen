@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="template.xsl"?>
+<schadenmeldungen>
+  <meldung>
+    <kunde>Max Mustermann</kunde>
+    <fahrzeug>VW Golf</fahrzeug>
+    <schadenart>Frontscheibe</schadenart>
+    <betrag>850</betrag>
+  </meldung>
+  <meldung>
+    <kunde>Erika Beispiel</kunde>
+    <fahrzeug>BMW 3er</fahrzeug>
+    <schadenart>Stoßstange</schadenart>
+    <betrag>1200</betrag>
+  </meldung>
+</schadenmeldungen>
