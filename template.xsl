@@ -10,14 +10,14 @@
           <tr>
             <th>Kunde</th>
             <th>Fahrzeug</th>
-            <th>Schadenart</th>
+            <th>Schadensart</th>
             <th>Betrag (€)</th>
           </tr>
           <xsl:for-each select="schadenmeldungen/meldung">
             <tr>
               <td><xsl:value-of select="kunde"/></td>
               <td><xsl:value-of select="fahrzeug"/></td>
-              <td><xsl:value-of select="schadenart"/></td>
+              <td><xsl:value-of select="schadensart"/></td>
               <td><xsl:value-of select="betrag"/></td>
             </tr>
           </xsl:for-each>
@@ -26,3 +26,4 @@
     </html>
   </xsl:template>
 </xsl:stylesheet>
+
