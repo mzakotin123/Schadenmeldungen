@@ -3,10 +3,13 @@
 Dieses Projekt zeigt, wie Schadenmeldungen in XML gespeichert und mit XSLT in eine HTML-Tabelle transformiert werden.
 
 ## Dateien
-- `data.xml` – Beispielhafte Schadenmeldungen
+- `data.xml` – beispielhafte Schadenmeldungen
 - `template.xsl` – Stylesheet zur Transformation
+- `template.xsl_fo`- Stylesheet zur Transformation in ein formatiertes Objekt (*.fo-Datei) und anschließend in eine PDF-Datei
+- `output.fo` - fo = formatted object (formatiertes Objekt): Zwischenergebnis der Umwandlung einer *.xml-Datei mit einer *.xls_fo-Datei
+- `output.pdf - PDF-Datei mit Ausgabe als Endergebnis einer XLS-FO-Umwandlung mithilfe von Apache FOP sowie der Datei "output.fo"
 
-## Nutzung
+## Nutzung der Umwandlung von XML in HTML mithilfe von XSLT
 Moderne Browser blockieren lokale XSLT-Dateien, wenn sie über `file://` geöffnet werden:
 
 - **Chrome/Edge:** zeigen keine Ausgabe (leer).
@@ -16,8 +19,6 @@ Moderne Browser blockieren lokale XSLT-Dateien, wenn sie über `file://` geöffn
 - **Alternative:** Online-Tools wie [FreeFormatter](https://www.freeformatter.com/xsl-transformer.html) für eine schnelle Vorschau.
 
 ## Beispielausgabe
-![Schadenmeldungen Tabelle](docs/schadenmeldungen.png)
-
 
 | Kunde           | Fahrzeug | Schadensart   | Betrag (€) |
 |-----------------|----------|---------------|------------|
