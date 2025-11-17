@@ -19,10 +19,10 @@ Moderne Browser blockieren lokale XSLT-Dateien, wenn sie über `file://` geöffn
 ![Schadenmeldungen Tabelle](docs/schadenmeldungen.png)
 
 
-| Kunde           | Fahrzeug | Schadenart   | Betrag (€) |
-|-----------------|----------|--------------|------------|
-| Max Mustermann  | VW Golf  | Frontscheibe | 850        |
-| Erika Beispiel  | BMW 3er  | Stoßstange   | 1200       |
+| Kunde           | Fahrzeug | Schadensart   | Betrag (€) |
+|-----------------|----------|---------------|------------|
+| Max Mustermann  | VW Golf  | Frontscheibe  | 850        |
+| Erika Beispiel  | BMW 3er  | Stoßstange    | 1200       |
 
 ## Live-Demo
 
