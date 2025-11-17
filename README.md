@@ -14,7 +14,7 @@ Moderne Browser blockieren lokale XSLT-Dateien, wenn sie über `file://` geöffn
 
 - **Chrome/Edge:** zeigen keine Ausgabe (leer).
 - **Firefox:** zeigt nur Rohtext ohne Zeilenumbrüche; die XSLT-Datei wird lokal blockiert.
-- **Lösung:** Dateien über HTTP bereitstellen (z. B. mit `python -m http.server` oder über GitHub Pages).  
+- **Lösung:** Dateien über HTTP bereitstellen (z. B. mit `python -m http.server 8000` oder über GitHub Pages).  
   Dann funktioniert die Transformation korrekt in allen modernen Browsern.
 - **Alternative:** Online-Tools wie [FreeFormatter](https://www.freeformatter.com/xsl-transformer.html) für eine schnelle Vorschau.
 
