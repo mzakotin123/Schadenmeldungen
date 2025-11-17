@@ -22,16 +22,16 @@
             <fo:table-header>
               <fo:table-row>
                 <fo:table-cell border="solid 1pt black">
-                  <fo:block>Kunde</fo:block>
+                  <fo:block font-weight="bold">Kunde</fo:block>
                 </fo:table-cell>
                 <fo:table-cell border="solid 1pt black">
-                  <fo:block>Fahrzeug</fo:block>
+                  <fo:block font-weight="bold">Fahrzeug</fo:block>
                 </fo:table-cell>
                 <fo:table-cell border="solid 1pt black">
-                  <fo:block>Schadenart</fo:block>
+                  <fo:block font-weight="bold">Schadensart</fo:block>
                 </fo:table-cell>
                 <fo:table-cell border="solid 1pt black">
-                  <fo:block>Betrag (€)</fo:block>
+                  <fo:block font-weight="bold">Betrag (€)</fo:block>
                 </fo:table-cell>
               </fo:table-row>
             </fo:table-header>
@@ -46,7 +46,7 @@
                     <fo:block><xsl:value-of select="fahrzeug"/></fo:block>
                   </fo:table-cell>
                   <fo:table-cell border="solid 1pt black">
-                    <fo:block><xsl:value-of select="schadenart"/></fo:block>
+                    <fo:block><xsl:value-of select="schadensart"/></fo:block>
                   </fo:table-cell>
                   <fo:table-cell border="solid 1pt black">
                     <fo:block><xsl:value-of select="betrag"/></fo:block>
