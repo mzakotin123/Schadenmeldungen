@@ -4,13 +4,14 @@
   <meldung>
     <kunde>Max Mustermann</kunde>
     <fahrzeug>VW Golf</fahrzeug>
-    <schadenart>Frontscheibe</schadenart>
+    <schadensart>Frontscheibe</schadensart>
     <betrag>850</betrag>
   </meldung>
   <meldung>
     <kunde>Erika Beispiel</kunde>
     <fahrzeug>BMW 3er</fahrzeug>
-    <schadenart>Stoßstange</schadenart>
+    <schadensart>Stoßstange</schadensart>
     <betrag>1200</betrag>
   </meldung>
 </schadenmeldungen>
+
