@@ -8,6 +8,8 @@ Dieses Projekt zeigt, wie Schadenmeldungen in XML gespeichert und mit XSLT in ei
 - `template.xsl_fo`- Stylesheet zur Transformation in ein formatiertes Objekt (*.fo-Datei) und anschließend in eine PDF-Datei
 - `output.fo` - fo = formatted object (formatiertes Objekt): Zwischenergebnis der XML-Umwandlung mit einer formatierten XSL-Datei
 - `output.pdf` - PDF-Datei mit Ausgabe als Endergebnis einer XSL-FO-Umwandlung mithilfe von Apache FOP sowie der Datei "output.fo"
+- `Schadenmeldungen.bpmn` - Geschäftsprozess "Schadenmeldungen" in Form eines eines Prozessmodells als XML-Code (im Editor als Diagramm)
+- `Schadenmeldungen_BPMN_Diagramm.svg` - bildliche Darstellung des BPMN-Modells, die mit einem Webbrowser zu öffnen ist
 
 ## Nutzung der Umwandlung von XML in HTML mithilfe von XSLT
 Moderne Browser blockieren lokale XSLT-Dateien, wenn sie über `file://` geöffnet werden:
