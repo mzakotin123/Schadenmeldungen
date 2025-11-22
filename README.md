@@ -6,11 +6,18 @@ Dieses Projekt zeigt, wie Schadenmeldungen in XML gespeichert und mit XSLT in ei
 - `data.xml` – beispielhafte Schadenmeldungen
 - `template.xsl` – Stylesheet zur Transformation
 - `template.xsl_fo`- Stylesheet zur Transformation in ein formatiertes Objekt (*.fo-Datei) und anschließend in eine PDF-Datei
-- `output.fo` - fo = formatted object (formatiertes Objekt): Zwischenergebnis der XML-Umwandlung mit einer formatierten XSL-Datei
+- `output.fo` - fo = formatted object: Zwischenergebnis der XML-Umwandlung mit einer formatierten XSL-Datei
 - `output.pdf` - PDF-Datei mit Ausgabe als Endergebnis einer XSL-FO-Umwandlung mithilfe von Apache FOP sowie der Datei "output.fo"
 - `Schadenmeldungen.bpmn` - Geschäftsprozess "Schadenmeldungen" in Form eines eines Prozessmodells als XML-Code (im Editor als Diagramm)
 - `Schadenmeldungen_BPMN_Diagramm.svg` - bildliche Darstellung des BPMN-Modells, die mit einem Webbrowser zu öffnen ist
 - `DB_Schadenmeldungen.sql` - SQL-Datei zum Erstellen einer MSSQL-Datenbanktabelle mit Schadenmeldungsbeispielen einschließlich Suchabfragen
+
+## Inhalte
+
+- **XML/XSLT/XSL‑FO** → Transformation von XML-Dateien über XSLT in HTML sowie über XSL-FO in PDF (`data.xml`, `template.xsl`, `template_xsl_fo.xsl`, `output.fo`, `output.pdf`)
+- **BPMN‑Diagramm** → Prozessmodell Schadenbearbeitung (`Schadenmeldungen.bpmn`, `Schadenmeldungen_BPMN_Diagramm.svg`)
+- **MSSQL‑Skript** → Datenbankdefinition, Beispielabfragen (`DB_Schadenmeldungen.sql`)
+
 
 ## Nutzung der Umwandlung von XML in HTML mithilfe von XSLT
 Moderne Browser blockieren lokale XSLT-Dateien, wenn sie über `file://` geöffnet werden:
