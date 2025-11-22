@@ -3,6 +3,7 @@
 Dieses Projekt zeigt, wie Schadenmeldungen in XML gespeichert und mit XSLT in eine HTML-Tabelle transformiert werden.
 
 ## Dateien
+
 - `data.xml` – beispielhafte Schadenmeldungen
 - `template.xsl` – Stylesheet zur Transformation
 - `template.xsl_fo`- Stylesheet zur Transformation in ein formatiertes Objekt (*.fo-Datei) und anschließend in eine PDF-Datei
@@ -20,6 +21,7 @@ Dieses Projekt zeigt, wie Schadenmeldungen in XML gespeichert und mit XSLT in ei
 
 
 ## Nutzung der Umwandlung von XML in HTML mithilfe von XSLT
+
 Moderne Browser blockieren lokale XSLT-Dateien, wenn sie über `file://` geöffnet werden:
 
 - **Chrome/Edge:** zeigen keine Ausgabe (leer).
@@ -60,4 +62,3 @@ Dieses Projekt demonstriert die Transformation von XML-Daten in ein PDF-Dokument
 
    4. C:\Users\user\Dokumente\Schadenmeldungen>"C:\Users\user\Downloads\fop-2.11-bin\fop-2.11\fop\fop.cmd" output.fo output.pdf  
    (Anschließend wird mithilfe des Verzeichnisses der CMD-Datei "fop" sowie der FO-Datei "output.fo" eine PDF-Datei "output.pdf" erzeugt.)
-
