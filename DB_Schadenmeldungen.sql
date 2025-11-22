@@ -96,4 +96,3 @@ FROM Schadenmeldungen s
 JOIN Kunden k ON s.KundenID = k.KundenID
 JOIN Fahrzeuge f ON s.FahrzeugID = f.FahrzeugID
 ORDER BY s.Kosten DESC;
-
