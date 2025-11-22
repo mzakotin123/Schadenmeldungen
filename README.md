@@ -10,7 +10,7 @@ Dieses Projekt zeigt, wie Schadenmeldungen in XML gespeichert und mit XSLT in ei
 - `output.pdf` - PDF-Datei mit Ausgabe als Endergebnis einer XSL-FO-Umwandlung mithilfe von Apache FOP sowie der Datei "output.fo"
 - `Schadenmeldungen.bpmn` - Geschäftsprozess "Schadenmeldungen" in Form eines eines Prozessmodells als XML-Code (im Editor als Diagramm)
 - `Schadenmeldungen_BPMN_Diagramm.svg` - bildliche Darstellung des BPMN-Modells, die mit einem Webbrowser zu öffnen ist
-- `DB_Schadenmeldungen.sql` - SQL-Datei zum Erstellen einer MSSQL-Datenbanktabelle mit Schadenmeldungsbeispielen einschließlich Suchabfragen
+- `DB_Schadenmeldungen.sql` - SQL-Datei zum Erstellen einer MSSQL-Datenbank mit Schadenmeldungsbeispielen einschließlich Suchabfragen
 
 ## Inhalte
 
