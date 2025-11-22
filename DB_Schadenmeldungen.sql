@@ -7,7 +7,7 @@ GO
 
 USE Schadenmeldungen;
 GO
-
+-- DDL-Abfragen
 -- Tabelle Kunden
 CREATE TABLE Kunden (
     KundenID INT IDENTITY(1,1) PRIMARY KEY,
@@ -26,6 +26,7 @@ CREATE TABLE Fahrzeuge (
 );
 GO
 
+-- DML-Abfragen
 -- Tabelle Schadenmeldungen mit Fremdschlüsseln
 CREATE TABLE Schadenmeldungen (
     SchadenID INT IDENTITY(1,1) PRIMARY KEY,
@@ -38,6 +39,7 @@ CREATE TABLE Schadenmeldungen (
     CONSTRAINT FK_Schadenmeldungen_Fahrzeuge FOREIGN KEY (FahrzeugID) REFERENCES Fahrzeuge(FahrzeugID)
 );
 GO
+
 
 -- Beispieldaten einfügen
 INSERT INTO Kunden (Name, Adresse, Telefon)
@@ -73,7 +75,6 @@ ADD Bearbeitungsstatus NVARCHAR(50) NULL;
 GO
 
 -- DQL-Abfragen
-
 -- Alle Schadenmeldungen mit Kunden- und Fahrzeugdaten anzeigen
 SELECT s.SchadenID, k.Name, f.Marke, f.Modell, s.Schadenart, s.Kosten, s.SchadenDatum
 FROM Schadenmeldungen s
