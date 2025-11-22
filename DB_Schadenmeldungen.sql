@@ -1,4 +1,4 @@
--- Datenbank anlegen (MSSQL-konform)
+-- Datenbank anlegen (MSSQL-konform): "CREATE DATABASE IF NOT EXISTS..." ist eine MySQL-Syntax, die in MSSQL ungültig ist.
 IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = 'Schadenmeldungen')
 BEGIN
     CREATE DATABASE Schadenmeldungen;
@@ -96,3 +96,4 @@ FROM Schadenmeldungen s
 JOIN Kunden k ON s.KundenID = k.KundenID
 JOIN Fahrzeuge f ON s.FahrzeugID = f.FahrzeugID
 ORDER BY s.Kosten DESC;
+
